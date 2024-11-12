@@ -15,7 +15,7 @@ npm run start:dev - запуск проекта в dev режиме
 
 ## Два дизайна приложения
 
-В приложении присутствует два варианта дизайна. Сменить с одного на другой можно после авторизации - нажать на аватар в правом верхнем углу - Настройки - Вариант интерфейса
+В приложении присутствует два варианта дизайна - актуальный и устаревший (актуальный более симпатичный). Сменить с одного на другой можно после авторизации - нажать на аватар в правом верхнем углу - Настройки - Вариант интерфейса
 
 
 ----
@@ -129,32 +129,3 @@ Clear.args = {
 
 Для асинхронного подключения редюсеров (чтобы не тянуть их в общий бандл) используется
 [DynamicModuleLoader](/src/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader.tsx)
-
-----
-
-## Сущности (entities)
-
-- [Article](/src/entities/Article)
-- [Comment](/src/entities/Comment)
-- [Counter](/src/entities/Counter)
-- [Country](/src/entities/Country)
-- [Currency](/src/entities/Currency)
-- [Notification](/src/entities/Notification)
-- [Profile](/src/entities/Profile)
-- [Rating](/src/entities/Rating)
-- [User](/src/entities/User)
-
-## Фичи (features)
-
-- [addCommentForm](/src/features/addCommentForm)
-- [articleEditForm](/src/features/articleEditForm)
-- [articleRating](/src/features/articleRating)
-- [articleRecommendationsList](/src/features/articleRecommendationsList)
-- [AuthByUsername](/src/features/AuthByUsername)
-- [avatarDropdown](/src/features/avatarDropdown)
-- [editableProfileCard](/src/features/editableProfileCard)
-- [LangSwitcher](/src/features/LangSwitcher)
-- [notificationButton](/src/features/notificationButton)
-- [profileRating](/src/features/profileRating)
-- [ThemeSwitcher](/src/features/ThemeSwitcher)
-- [UI](/src/features/UI)
