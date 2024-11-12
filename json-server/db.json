@@ -759,13 +759,21 @@
   ],
   "users": [
     {
-      "avatar": "https://4g-inter.net/image/cache/catalog/goods/ai/3d/lion1-500x500.jpg",
       "id": "1",
+      "username": "admin",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
       "features": {
+        "isArticleRatingEnabled": true,
+        "isCounterEnabled": true,
         "isAppRedesigned": true
       },
+      "avatar": "https://4g-inter.net/image/cache/catalog/goods/ai/3d/lion1-500x500.jpg",
       "jsonSettings": {
-        "isArticlesPageWasOpened": true
+        "isArticlesPageWasOpened": true,
+        "theme": "app_dark_theme"
       }
     },
     {
